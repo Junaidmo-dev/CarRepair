@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+
+@layer base {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .font-cal-sans{
+    font-family: 'Cal Sans', sans-serif;
+  }
+}
+  

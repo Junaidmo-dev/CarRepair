@@ -1,0 +1,24 @@
+/* Hide scrollbars for Calendly widget */
+#appointment iframe {
+  overflow: hidden !important;
+}
+
+/* Hide scrollbars globally for the appointment section */
+#appointment {
+  overflow: hidden !important;
+}
+
+/* Target Calendly specific elements */
+.calendly-inline-widget {
+  overflow: hidden !important;
+}
+
+/* Hide scrollbars for all browsers */
+#appointment ::-webkit-scrollbar {
+  display: none !important;
+}
+
+#appointment {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
